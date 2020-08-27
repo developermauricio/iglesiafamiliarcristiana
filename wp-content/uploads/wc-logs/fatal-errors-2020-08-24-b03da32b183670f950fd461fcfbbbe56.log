@@ -1,0 +1,10 @@
+2020-08-24T18:59:26+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/forge/iglesiafamiliarcristiana.org/wp-content/themes/my-religion/woocommerce/cmsmasters-woo-functions.php:21
+Stack trace:
+#0 /home/forge/iglesiafamiliarcristiana.org/wp-content/themes/my-religion/framework/function/template-functions.php(234): my_religion_woocommerce_cart_dropdown()
+#1 /home/forge/iglesiafamiliarcristiana.org/wp-content/themes/my-religion/header.php(49): my_religion_header_mid(Array)
+#2 /home/forge/iglesiafamiliarcristiana.org/wp-includes/template.php(723): require_once('/home/forge/igl...')
+#3 /home/forge/iglesiafamiliarcristiana.org/wp-includes/template.php(672): load_template('/home/forge/igl...', true)
+#4 /home/forge/iglesiafamiliarcristiana.org/wp-includes/general-template.php(41): locate_template(Array, true)
+#5 /home/forge/iglesiafamiliarcristiana.org/wp-content/themes/my-religion/404.php(13): get_header()
+#6 /home/forge/iglesiafamiliarcristiana.org/wp-includes/template-loader.php(106): include('/home/ en /home/forge/iglesiafamiliarcristiana.org/wp-content/themes/my-religion/woocommerce/cmsmasters-woo-functions.php en la línea 21
+
